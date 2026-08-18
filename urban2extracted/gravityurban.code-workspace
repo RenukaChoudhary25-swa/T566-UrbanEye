@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "UrbanEye_Clean"
+    },
+    {
+      "path": "urban2extracted"
+    }
+  ],
+  "settings": {
+    "git.ignoreLimitWarning": true
+  }
+}

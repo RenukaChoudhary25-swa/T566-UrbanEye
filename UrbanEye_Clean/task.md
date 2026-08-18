@@ -1,0 +1,26 @@
+# UrbanEye Hackathon Prototype Implementation Checklist
+
+- `[x]` Setup & Services
+  - `[x]` Create database `app/data/sample_issues.json` with seed data
+  - `[x]` Update Issues Database module `app/services/issues.py`
+  - `[x]` Support `priority_reason` and `image_path`
+  - `[x]` Implement uploaded image saving to `app/data/uploads`
+  - `[x]` Implement inference wrapper `app/services/inference.py`
+  - `[x]` Implement analytics aggregator `app/services/analytics.py`
+- `[x]` UI Styling & Components
+  - `[x]` Implement CSS stylesheet rules `app/ui/styles.py`
+  - `[x]` Implement sidebar navigation and profile topbar `app/ui/shell.py`
+  - `[x]` Implement reusable UI components `app/ui/components.py`
+  - `[x]` Implement Plotly chart components `app/ui/charts.py`
+- `[x]` Page Views
+  - `[x]` Implement **Dashboard** view `app/pages/dashboard.py`
+  - `[x]` Implement **AI Detection** view `app/pages/ai_detection.py`
+  - `[x]` Implement **Citizen Report** view `app/pages/citizen_report.py`
+  - `[x]` Implement **Civic Map** view `app/pages/civic_map.py`
+  - `[x]` Implement **Analytics** view `app/pages/analytics.py`
+- `[x]` Routing & Integration
+  - `[x]` Update main routing file `app.py`
+- `[x]` Verification & Launch
+  - `[x]` Run test script to verify YOLOv8 model loading and inference
+  - `[x]` Run and manually test the Streamlit app
+  - `[x]` Document run instructions in walkthrough

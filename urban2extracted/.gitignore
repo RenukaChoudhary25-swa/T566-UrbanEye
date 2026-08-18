@@ -1,0 +1,11 @@
+venv/
+datasets/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.env
+.vscode/
+UrbanEye_Clean_BACKUP/
+yolov8n.pt
+yolo11n.pt
