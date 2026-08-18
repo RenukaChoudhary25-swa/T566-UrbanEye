@@ -44,7 +44,7 @@ export function Dashboard({ onNavigate }: { onNavigate: (p: PageId) => void }) {
         </div>
         <div className="relative max-w-xl p-6 md:p-8">
           <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-[11px] font-semibold tracking-wide text-white/90"><Leaf className="h-3.5 w-3.5 text-[#ffd166]" /> SWACHH BHARAT MISSION</div>
-          <h2 className="text-2xl font-bold leading-tight md:text-3xl">Together for a cleaner, smarter Indore</h2>
+          <h2 className="text-2xl font-bold leading-tight md:text-3xl">Together for a cleaner, smarter Cities</h2>
           <p className="mt-2 max-w-md text-sm leading-6 text-white/80">See it. Report it. Resolve it. UrbanEye turns every citizen observation into visible action.</p>
           <div className="mt-5 flex flex-wrap gap-2">
             <Button onClick={() => onNavigate('report')} className="!bg-[#f59e0b] !text-white hover:!bg-[#d97706]">Report an issue <ArrowRight className="h-4 w-4" /></Button>
